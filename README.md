@@ -1,2 +1,2 @@
-# myStudyPicture
-studyPicture
+# studyJava
+studyJava
