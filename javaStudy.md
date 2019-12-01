@@ -28,31 +28,31 @@ public class Demo02Exception{
 
 ## throws关键字
 
-<img src="E:\githubFile\studyJava\picture\Screenshots\Screenshot_2019-11-29-22-18-13.png" alt="Screenshot_2019-11-29-22-18-13"  />
+<img src="https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/Screenshot_2019-11-29-22-18-13.png" alt="Screenshot_2019-11-29-22-18-13"  />
 
 ## try_catch异常处理的第二种方式
 
-![Screenshot_2019-11-29-22-35-37](E:\githubFile\studyJava\picture\Screenshots\Screenshot_2019-11-29-22-35-37.png)
+![Screenshot_2019-11-29-22-35-37](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/Screenshot_2019-11-29-22-35-37.png)
 
 ## 异常注意事项--多异常的捕获处理
 
-![Screenshot_2019-11-30-09-53-08](E:\githubFile\studyJava\picture\Screenshots\Screenshot_2019-11-30-09-53-08.png)
+![Screenshot_2019-11-30-09-53-08](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/Screenshot_2019-11-30-09-53-08.png)
 
-![Screenshot_2019-11-30-10-00-15](E:\githubFile\studyJava\picture\Screenshots\Screenshot_2019-11-30-10-00-15.png)
+![Screenshot_2019-11-30-10-00-15](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/Screenshot_2019-11-30-10-00-15.png)
 
 ## 异常注意事项--finally有return语句
 
-![Screenshot_2019-11-30-10-06-41](E:\githubFile\studyJava\picture\Screenshots\Screenshot_2019-11-30-10-06-41.png)
+![Screenshot_2019-11-30-10-06-41](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/Screenshot_2019-11-30-10-06-41.png)
 
 ## 异常注意事项--子父类异常
 
-![Screenshot_2019-11-30-10-12-05](E:\githubFile\studyJava\picture\Screenshots\Screenshot_2019-11-30-10-12-05.png)
+![Screenshot_2019-11-30-10-12-05](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/Screenshot_2019-11-30-10-12-05.png)
 
 ## 自定义异常
 
-![Screenshot_2019-11-30-10-20-54](E:\githubFile\studyJava\picture\Screenshots\Screenshot_2019-11-30-10-20-54.png)
+![Screenshot_2019-11-30-10-20-54](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/Screenshot_2019-11-30-10-20-54.png)
 
-![Screenshot_2019-11-30-10-21-58](E:\githubFile\studyJava\picture\Screenshots\Screenshot_2019-11-30-10-21-58.png)
+![Screenshot_2019-11-30-10-21-58](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/Screenshot_2019-11-30-10-21-58.png)
 
 # 2、IDEA的复制粘贴快捷键失效解决方法
 
@@ -62,23 +62,23 @@ public class Demo02Exception{
 
 ## 并发与并行
 
-![Screenshot_2019-11-30-10-48-39](E:\githubFile\studyJava\picture\Screenshots\Screenshot_2019-11-30-10-48-39.png)
+![Screenshot_2019-11-30-10-48-39](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/Screenshot_2019-11-30-10-48-39.png)
 
 ## 线程与进程
 
-![Screenshot_2019-11-30-11-03-18](E:\githubFile\studyJava\picture\Screenshots\Screenshot_2019-11-30-11-03-18.png)
+![Screenshot_2019-11-30-11-03-18](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/Screenshot_2019-11-30-11-03-18.png)
 
 ## 进程的概念
 
-![Screenshot_2019-11-30-11-01-06](E:\githubFile\studyJava\picture\Screenshots\Screenshot_2019-11-30-11-01-06.png)
+![Screenshot_2019-11-30-11-01-06](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/Screenshot_2019-11-30-11-01-06.png)
 
 ## 线程的概念
 
-![Screenshot_2019-11-30-11-11-10](E:\githubFile\studyJava\picture\Screenshots\Screenshot_2019-11-30-11-11-10.png)
+![Screenshot_2019-11-30-11-11-10](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/Screenshot_2019-11-30-11-11-10.png)
 
 ## 线程调度
 
-![Screenshot_2019-11-30-11-14-46](E:\githubFile\studyJava\picture\Screenshots\Screenshot_2019-11-30-11-14-46.png)
+![Screenshot_2019-11-30-11-14-46](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/Screenshot_2019-11-30-11-14-46.png)
 
 **分时调度：谁的优先级高，分配的cpu时间更久，例如：线程1、2、3的优先级为（高，中，低），cup运行时间为9秒，那么他们的cup分配时间为：先运行线程一5秒，再运行线程二3秒，最后运行线程三1秒。**
 
@@ -86,7 +86,7 @@ public class Demo02Exception{
 
 ## 主线程
 
-![Screenshot_2019-11-30-11-28-44](E:\githubFile\studyJava\picture\Screenshots\Screenshot_2019-11-30-11-28-44.png)
+![Screenshot_2019-11-30-11-28-44](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/Screenshot_2019-11-30-11-28-44.png)
 
 ## 创建多线程程序的第一种方式
 
@@ -138,11 +138,11 @@ public class MyThread extends  Thread{
 
 ## 多线程原理
 
-![Screenshot_2019-11-30-14-35-00](E:\githubFile\studyJava\picture\Screenshots\Screenshot_2019-11-30-14-35-00.png)
+![Screenshot_2019-11-30-14-35-00](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/Screenshot_2019-11-30-14-35-00.png)
 
 ## 多线程内存图解
 
-![Screenshot_2019-11-30-14-42-47](E:\githubFile\studyJava\picture\Screenshots\Screenshot_2019-11-30-14-42-47.png)
+![Screenshot_2019-11-30-14-42-47](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/Screenshot_2019-11-30-14-42-47.png)
 
 **<u>当创建了一个Thread对象后，调用run（）方法和调用start（）方法是有区别的，如果用成run（）方法，那么main（）方法压入栈后，继续执行run（）方法，程序从上往下执行，因此是单线程来执行的；而调用start（）方法，则会再新建一个栈内存存run（）方法，此时cpu会执行多个栈里面的方法，此时是多线程执行。</u>**
 
@@ -190,7 +190,7 @@ public class Demo01Thread {
 
 ```
 
-![image-20191130151144079](E:\githubFile\studyJava\picture\Screenshots\image-20191130151144079.png)
+![image-20191130151144079](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/image-20191130151144079.png)
 
 **注意主线程main（）没有getName（）的方法，它没有继承Thread类，因此必须用Thread.currentThread（）获得当前的线程。**
 
@@ -198,7 +198,7 @@ public class Demo01Thread {
 
 **两种方法：**
 
-![image-20191130153053086](E:%5CgithubFile%5CstudyJava%5Cpicture%5CScreenshots%5Cimage-20191130153053086.png)
+![image-20191130153053086](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/image-20191130153053086.png)
 
 ***方法一：上图中1方法***
 
@@ -228,7 +228,7 @@ public class Demo01Thread {
 
 ```
 
-![image-20191130154431533](E:%5CgithubFile%5CstudyJava%5Cpicture%5CScreenshots%5Cimage-20191130154431533.png)
+![image-20191130154431533](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/image-20191130154431533.png)
 
 ***方法二：图中2方法***
 
@@ -264,15 +264,15 @@ public class Demo01Thread {
 
 ```
 
-![image-20191130154402467](E:%5CgithubFile%5CstudyJava%5Cpicture%5CScreenshots%5Cimage-20191130154402467.png)
+![image-20191130154402467](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/image-20191130154402467.png)
 
 ## Thread中的常用方法--sleep（）
 
-![image-20191130154824964](E:%5CgithubFile%5CstudyJava%5Cpicture%5CScreenshots%5Cimage-20191130154824964.png)
+![image-20191130154824964](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/image-20191130154824964.png)
 
 ## 创建多线程的第二种方式--实现Runnable接口
 
-![image-20191130160222775](E:%5CgithubFile%5CstudyJava%5Cpicture%5CScreenshots%5Cimage-20191130160222775.png)
+![image-20191130160222775](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/image-20191130160222775.png)
 
 ```java
 package demo04.Runnable;
@@ -310,7 +310,7 @@ public class Demo01Thr {
 
 ## Thread和Runnable的区别
 
-![image-20191130161402924](E:%5CgithubFile%5CstudyJava%5Cpicture%5CScreenshots%5Cimage-20191130161402924.png)
+![image-20191130161402924](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/image-20191130161402924.png)
 
 ```java
 package demo04.Runnable;
@@ -343,7 +343,7 @@ public class Demo01Thr {
 
 ## 匿名内部类实现多线程
 
-![image-20191130162756387](E:%5CgithubFile%5CstudyJava%5Cpicture%5CScreenshots%5Cimage-20191130162756387.png)
+![image-20191130162756387](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/image-20191130162756387.png)
 
 继承方式
 
@@ -406,3 +406,446 @@ public class Demo01InnerClassThread{
 }
 ```
 
+## 线程安全问题产生的原理
+
+![Screenshot_2019-12-01-09-32-26](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/Screenshot_2019-12-01-09-32-26.png)
+
+## 解决线程安全问题--同步代码块（第一种方式）
+
+```java
+package demo07.Synchronized;
+/*
+    卖票案例出现了线程安全问题
+    卖出了不存在的票和重复的票
+
+    解决线程安全问题的一种方案：使用同步代码块
+    格式：
+        synchronized（锁对象）{
+           可能会出现线程安全问题的代码(访问了共享数据的代码)
+        }
+    注意：
+        1.通过代码块中的锁对象，可以使用任意的对象
+        2.但是必须保证多个线程使用的锁对象是同一个
+        3.锁对象作用：
+            把同步代码块锁住，只让一个线程在同步代码块中执行
+ */
+public class RunnableImpl implements Runnable{
+    //定义一个多个线程共享的票源
+    private int ticket = 100;
+
+    //创建一个锁对象，并且该对象必须在run方法的外边，如果在run方法里，那么三个线程将会有三个锁对象，这样就不对，锁对象必须是只有一个
+    Object obj = new Object();
+
+    //设置线程任务：买票
+    @Override
+    public void run() {
+        while (true){
+            //创建同步代码块
+            synchronized (obj){
+                if(ticket>0){
+                    try {
+                        Thread.sleep(10);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+
+                    //票存在，卖票 ticket--
+                    System.out.println(Thread.currentThread().getName()+"-->正在卖第"+ticket+"张票");
+                    ticket--;
+                }
+            }
+        }
+    }
+}
+
+```
+
+```java
+package demo07.Synchronized;
+
+public class Demo01Ticket {
+    public static void main(String[] args) {
+        //创建Runnable接口的实现类对象
+        RunnableImpl run = new RunnableImpl();
+        //创建Thread类对象，构造方法中传递Runnable接口的实现类对象
+        Thread t0 = new Thread(run);
+        Thread t1 = new Thread(run);
+        Thread t2 = new Thread(run);
+        //调用start方法开启多线程
+        t0.start();
+        t1.start();
+        t2.start();
+    }
+}
+
+```
+
+## 同步技术的原理
+
+![Screenshot_2019-12-01-10-02-58](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/Screenshot_2019-12-01-10-02-58.png)
+
+## 解决线程安全问题--同步方法（第二种方式）
+
+```java
+package demo07.Synchronized;
+/*
+    卖票案例出现了线程安全问题
+    卖出了不存在的票和重复的票
+
+    解决线程安全问题的二种方案：使用同步方法
+    使用步骤：
+    	1.把访问了共享数据的代码抽取出来，放到一个方法中
+    	2.在方法上添加synchronized修饰符
+    格式：定义方法的格式
+    修饰符 synchronized 返回值类型 方法名（参数列表）{
+    	可能会出现线程安全问题的代码（访问了共享数据的代码）
+    }    
+ */
+public class RunnableImpl implements Runnable{
+    //定义一个多个线程共享的票源
+    private int ticket = 100;
+
+    //创建一个锁对象，并且该对象必须在run方法的外边，如果在run方法里，那么三个线程将会有三个锁对象，这样就不对，锁对象必须是只有一个
+    Object obj = new Object();
+
+    //设置线程任务：买票
+    @Override
+    public void run() {
+        while (true){
+            payTicket();
+        }
+    }
+    /*
+    	定义一个同步方法
+    	同步方法也会把方法内部的代码锁住
+    	只让一个线程执行
+    	同步方法的锁对象是谁？
+    	就是实现类对象 new RunnableImpl()
+    	也就是this
+    */
+    public synchronized void payTicket(){
+        if(ticket>0){
+                    try {
+                        Thread.sleep(10);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+
+                    //票存在，卖票 ticket--
+                    System.out.println(Thread.currentThread().getName()+"-->正在卖第"+ticket+"张票");
+                    ticket--;
+                }
+	}
+}
+
+```
+
+```java
+package demo07.Synchronized;
+
+public class Demo01Ticket {
+    public static void main(String[] args) {
+        //创建Runnable接口的实现类对象
+        RunnableImpl run = new RunnableImpl();
+        //创建Thread类对象，构造方法中传递Runnable接口的实现类对象
+        Thread t0 = new Thread(run);
+        Thread t1 = new Thread(run);
+        Thread t2 = new Thread(run);
+        //调用start方法开启多线程
+        t0.start();
+        t1.start();
+        t2.start();
+    }
+}
+
+```
+
+## 静态同步方法
+
+```java
+package demo07.Synchronized;
+
+public class RunnableImpl implements Runnable{
+    //这里的ticket必须加上static，因为调用的方法是静态的
+    private static int ticket = 100;
+
+    Object obj = new Object();
+
+    
+    @Override
+    public void run() {
+        while (true){
+            payTicket();
+        }
+    }
+    /*
+    	静态的同步方法
+    	锁对象是谁？
+    	不能是this
+    	this是创建对象之后产生的，静态方法优先与对象
+    	静态方法的锁对象是本类的class属性-->class文件对象（反射）本例中为(RunnableImpl.class)
+    */
+    public static synchronized void payTicket(){
+        if(ticket>0){
+                    try {
+                        Thread.sleep(10);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+
+                   
+                    System.out.println(Thread.currentThread().getName()+"-->正在卖第"+ticket+"张票");
+                    ticket--;
+                }
+	}
+}
+
+```
+
+```java
+package demo07.Synchronized;
+
+public class Demo01Ticket {
+    public static void main(String[] args) {
+        //创建Runnable接口的实现类对象
+        RunnableImpl run = new RunnableImpl();
+        //创建Thread类对象，构造方法中传递Runnable接口的实现类对象
+        Thread t0 = new Thread(run);
+        Thread t1 = new Thread(run);
+        Thread t2 = new Thread(run);
+        //调用start方法开启多线程
+        t0.start();
+        t1.start();
+        t2.start();
+    }
+}
+
+```
+
+## 解决线程安全问题--Lock锁（第三种方式）
+
+![image-20191201114954985](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/image-20191201114954985.png)
+
+```java
+package demo07.Synchronized;
+
+public class RunnableImpl implements Runnable{
+    
+    private int ticket = 100;
+
+    //1.在成员位置创建一个ReentrantLock对象
+	Lock l = new ReentrantLock();
+    
+    @Override
+    public void run() {
+        while (true){
+            //2.在可能会出现安全问题的代码前调用Lock接口中的方法lock获取锁
+            l.lock();
+            if(ticket>0){
+                    try {
+                        Thread.sleep(10);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+          System.out.println(Thread.currentThread().getName()+"-->正在卖第"+ticket+"张票");
+                    ticket--;
+                }
+            //3.在可能会出现安全问题的代码后调用Lock接口中的方法unlock释放锁
+            l.unlock();
+        }
+    }
+}
+
+```
+
+```java
+package demo07.Synchronized;
+
+public class Demo01Ticket {
+    public static void main(String[] args) {
+        //创建Runnable接口的实现类对象
+        RunnableImpl run = new RunnableImpl();
+        //创建Thread类对象，构造方法中传递Runnable接口的实现类对象
+        Thread t0 = new Thread(run);
+        Thread t1 = new Thread(run);
+        Thread t2 = new Thread(run);
+        //调用start方法开启多线程
+        t0.start();
+        t1.start();
+        t2.start();
+    }
+}
+```
+
+<u>下面是提高程序效率的写发</u>：**将l.unlock()放在finally代码块中**
+
+```java
+package demo07.Synchronized;
+
+public class RunnableImpl implements Runnable{
+    
+    private int ticket = 100;
+
+    //1.在成员位置创建一个ReentrantLock对象
+	Lock l = new ReentrantLock();
+    
+    @Override
+    public void run() {
+        while (true){
+            //2.在可能会出现安全问题的代码前调用Lock接口中的方法lock获取锁
+            l.lock();
+            if(ticket>0){
+                    try {
+                        Thread.sleep(10);                  					       System.out.println(Thread.currentThread().getName()+"-->正在卖第"+ticket+"张票");
+                    ticket--;
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }finally{
+                        //3.在可能会出现安全问题的代码后调用Lock接口中的方法unlock释放锁
+            			l.unlock();
+                    }
+                }
+        }
+    }
+}
+
+```
+
+```java
+package demo07.Synchronized;
+
+public class Demo01Ticket {
+    public static void main(String[] args) {
+        //创建Runnable接口的实现类对象
+        RunnableImpl run = new RunnableImpl();
+        //创建Thread类对象，构造方法中传递Runnable接口的实现类对象
+        Thread t0 = new Thread(run);
+        Thread t1 = new Thread(run);
+        Thread t2 = new Thread(run);
+        //调用start方法开启多线程
+        t0.start();
+        t1.start();
+        t2.start();
+    }
+}
+```
+
+# 4、等待唤醒机制
+
+## 线程状态
+
+image-20191201123004287
+
+## 线程之间的通信--等待唤醒案例
+
+*<u>**wait()和sleep()方法是不一样的：wait是object的方法，sleep是thread的方法，wait和sleep都可以设置时间，但是只有wait可以不设置时间，进入无线等待状态，当别的线程调用Object.notify()方法是才唤醒**</u>*
+
+![image-20191201123617313](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/image-20191201123617313.png)
+
+![image-20191201144949885](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/image-20191201144949885.png)
+
+```java
+package demo10.WaitAndNotify;
+
+public class Demo01WaitAndNotify {
+    public static void main(String[] args) {
+        Object obj = new Object();
+
+        //创建一个顾客线程
+        new Thread(){
+            @Override
+            public void run() {
+                synchronized (obj){
+                    System.out.println("告知老板要的包子的种类和数量");
+                    try {
+                        obj.wait();
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                    System.out.println("包子已经做好了，开吃");
+                }
+            }
+        }.start();
+
+        //创建一个老板线程
+        new Thread(){
+            @Override
+            public void run() {
+                //花了5秒做包子
+                try {
+                    Thread.sleep(5000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                synchronized (obj){
+                    System.out.println("包子做好了，告知顾客可以吃包子了");
+                    obj.notify();
+                }
+            }
+        }.start();
+    }
+}
+
+```
+
+![image-20191201151405940](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/image-20191201151405940.png)
+
+**等了5秒后<u>*“包子做好了…”*</u>这些话才打印出来**
+
+## object类中wait带参方法和notifyAll方法
+
+![image-20191201152237858](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/image-20191201152237858.png)
+
+# 5.线程池
+
+## 线程池的概念和原理
+
+![image-20191201161705235](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/image-20191201161705235.png)
+
+![image-20191201161754757](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/image-20191201161754757.png)
+
+## 线程池的代码实现
+
+![image-20191201162411641](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/image-20191201162411641.png)
+
+![image-20191201162758754](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/image-20191201162758754.png)
+
+![image-20191201162833308](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/image-20191201162833308.png)
+
+# 6、lambda表达式
+
+## 使用lambda表达式解决创建线程对象的冗余操作
+
+![image-20191201164053261](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/image-20191201164053261.png)
+
+## lambda表达式的标准格式
+
+![image-20191201164502950](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/image-20191201164502950.png)
+
+## lambda表达式的无参无返回值例子
+
+![image-20191201165027736](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/image-20191201165027736.png)
+
+![image-20191201165106202](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/image-20191201165106202.png)
+
+## lambda表达式的有参有返回值例子
+
+<u>**用匿名内部类：**</u>
+
+![image-20191201165636596](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/image-20191201165636596.png)
+
+<u>**用lambda表达式：**</u>
+
+![image-20191201165742462](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/image-20191201165742462.png)
+
+## lambda表达式省略格式
+
+![image-20191201171259768](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/image-20191201171259768.png)
+
+**<u>*省略前：</u>***
+
+![image-20191201171343734](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/image-20191201171343734.png)
+
+**<u>省略后：</u>**
+
+![image-20191201171430457](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/image-20191201171430457.png)
