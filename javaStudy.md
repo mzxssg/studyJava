@@ -1,6 +1,6 @@
 # 1.异常
 
-## 异常的产生过程
+## 1.1 异常的产生过程
 
 ```java
 public class Demo02Exception{
@@ -26,29 +26,29 @@ public class Demo02Exception{
 
 ![20191128_212805]( https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/20191128_212805.png )
 
-## throws关键字
+## 1.2 throws关键字
 
 <img src="https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/Screenshot_2019-11-29-22-18-13.png" alt="Screenshot_2019-11-29-22-18-13"  />
 
-## try_catch异常处理的第二种方式
+## 1.3 try_catch异常处理的第二种方式
 
 ![Screenshot_2019-11-29-22-35-37](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/Screenshot_2019-11-29-22-35-37.png)
 
-## 异常注意事项--多异常的捕获处理
+## 1.4 异常注意事项--多异常的捕获处理
 
 ![Screenshot_2019-11-30-09-53-08](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/Screenshot_2019-11-30-09-53-08.png)
 
 ![Screenshot_2019-11-30-10-00-15](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/Screenshot_2019-11-30-10-00-15.png)
 
-## 异常注意事项--finally有return语句
+## 1.5 异常注意事项--finally有return语句
 
 ![Screenshot_2019-11-30-10-06-41](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/Screenshot_2019-11-30-10-06-41.png)
 
-## 异常注意事项--子父类异常
+## 1.6 异常注意事项--子父类异常
 
 ![Screenshot_2019-11-30-10-12-05](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/Screenshot_2019-11-30-10-12-05.png)
 
-## 自定义异常
+## 1.7 自定义异常
 
 ![Screenshot_2019-11-30-10-20-54](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/Screenshot_2019-11-30-10-20-54.png)
 
@@ -60,23 +60,23 @@ public class Demo02Exception{
 
 # 3、多线程
 
-## 并发与并行
+## 3.1 并发与并行
 
 ![Screenshot_2019-11-30-10-48-39](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/Screenshot_2019-11-30-10-48-39.png)
 
-## 线程与进程
+## 3.2 线程与进程
 
 ![Screenshot_2019-11-30-11-03-18](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/Screenshot_2019-11-30-11-03-18.png)
 
-## 进程的概念
+## 3.3 进程的概念
 
 ![Screenshot_2019-11-30-11-01-06](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/Screenshot_2019-11-30-11-01-06.png)
 
-## 线程的概念
+## 3.4 线程的概念
 
 ![Screenshot_2019-11-30-11-11-10](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/Screenshot_2019-11-30-11-11-10.png)
 
-## 线程调度
+## 3.5 线程调度
 
 ![Screenshot_2019-11-30-11-14-46](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/Screenshot_2019-11-30-11-14-46.png)
 
@@ -84,11 +84,11 @@ public class Demo02Exception{
 
 **抢占式调度：随机获取cpu运行，谁的优先级高，获取cup运行的概率越大。**
 
-## 主线程
+## 3.6 主线程
 
 ![Screenshot_2019-11-30-11-28-44](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/Screenshot_2019-11-30-11-28-44.png)
 
-## 创建多线程程序的第一种方式
+## 3.7 创建多线程程序的第一种方式
 
 ```java
 package Demo06.Thread;
@@ -136,17 +136,17 @@ public class MyThread extends  Thread{
 
 ```
 
-## 多线程原理
+## 3.8 多线程原理
 
 ![Screenshot_2019-11-30-14-35-00](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/Screenshot_2019-11-30-14-35-00.png)
 
-## 多线程内存图解
+## 3.9 多线程内存图解
 
 ![Screenshot_2019-11-30-14-42-47](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/Screenshot_2019-11-30-14-42-47.png)
 
 **<u>当创建了一个Thread对象后，调用run（）方法和调用start（）方法是有区别的，如果用成run（）方法，那么main（）方法压入栈后，继续执行run（）方法，程序从上往下执行，因此是单线程来执行的；而调用start（）方法，则会再新建一个栈内存存run（）方法，此时cpu会执行多个栈里面的方法，此时是多线程执行。</u>**
 
-## Thread类的常用方法
+## 3.10 Thread类的常用方法
 
 ```java
 package Demo01.getName;
@@ -194,7 +194,7 @@ public class Demo01Thread {
 
 **注意主线程main（）没有getName（）的方法，它没有继承Thread类，因此必须用Thread.currentThread（）获得当前的线程。**
 
-## 设置线程名称
+## 3.11 设置线程名称
 
 **两种方法：**
 
@@ -266,11 +266,11 @@ public class Demo01Thread {
 
 ![image-20191130154402467](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/image-20191130154402467.png)
 
-## Thread中的常用方法--sleep（）
+## 3.12 Thread中的常用方法--sleep（）
 
 ![image-20191130154824964](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/image-20191130154824964.png)
 
-## 创建多线程的第二种方式--实现Runnable接口
+## 3.13 创建多线程的第二种方式--实现Runnable接口
 
 ![image-20191130160222775](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/image-20191130160222775.png)
 
@@ -308,7 +308,7 @@ public class Demo01Thr {
 
 ```
 
-## Thread和Runnable的区别
+## 3.14 Thread和Runnable的区别
 
 ![image-20191130161402924](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/image-20191130161402924.png)
 
@@ -341,7 +341,7 @@ public class Demo01Thr {
 
 ````
 
-## 匿名内部类实现多线程
+## 3.15 匿名内部类实现多线程
 
 ![image-20191130162756387](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/image-20191130162756387.png)
 
@@ -406,11 +406,11 @@ public class Demo01InnerClassThread{
 }
 ```
 
-## 线程安全问题产生的原理
+## 3.16 线程安全问题产生的原理
 
 ![Screenshot_2019-12-01-09-32-26](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/Screenshot_2019-12-01-09-32-26.png)
 
-## 解决线程安全问题--同步代码块（第一种方式）
+## 3.17 解决线程安全问题--同步代码块（第一种方式）
 
 ```java
 package demo07.Synchronized;
@@ -480,11 +480,11 @@ public class Demo01Ticket {
 
 ```
 
-## 同步技术的原理
+## 3.18 同步技术的原理
 
 ![Screenshot_2019-12-01-10-02-58](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/Screenshot_2019-12-01-10-02-58.png)
 
-## 解决线程安全问题--同步方法（第二种方式）
+## 3.19 解决线程安全问题--同步方法（第二种方式）
 
 ```java
 package demo07.Synchronized;
@@ -560,7 +560,7 @@ public class Demo01Ticket {
 
 ```
 
-## 静态同步方法
+## 3.20 静态同步方法
 
 ```java
 package demo07.Synchronized;
@@ -622,7 +622,7 @@ public class Demo01Ticket {
 
 ```
 
-## 解决线程安全问题--Lock锁（第三种方式）
+## 3.21 解决线程安全问题--Lock锁（第三种方式）
 
 ![image-20191201114954985](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/image-20191201114954985.png)
 
@@ -732,11 +732,11 @@ public class Demo01Ticket {
 
 # 4、等待唤醒机制
 
-## 线程状态
+## 4.1 线程状态
 
-image-20191201123004287
+![image-20191201123617313](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/image-20191201123004287.png)
 
-## 线程之间的通信--等待唤醒案例
+## 4.2 线程之间的通信--等待唤醒案例
 
 *<u>**wait()和sleep()方法是不一样的：wait是object的方法，sleep是thread的方法，wait和sleep都可以设置时间，但是只有wait可以不设置时间，进入无线等待状态，当别的线程调用Object.notify()方法是才唤醒**</u>*
 
@@ -792,19 +792,19 @@ public class Demo01WaitAndNotify {
 
 **等了5秒后<u>*“包子做好了…”*</u>这些话才打印出来**
 
-## object类中wait带参方法和notifyAll方法
+## 4.3 object类中wait带参方法和notifyAll方法
 
 ![image-20191201152237858](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/image-20191201152237858.png)
 
 # 5.线程池
 
-## 线程池的概念和原理
+## 5.1 线程池的概念和原理
 
 ![image-20191201161705235](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/image-20191201161705235.png)
 
 ![image-20191201161754757](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/image-20191201161754757.png)
 
-## 线程池的代码实现
+## 5.2 线程池的代码实现
 
 ![image-20191201162411641](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/image-20191201162411641.png)
 
@@ -814,21 +814,21 @@ public class Demo01WaitAndNotify {
 
 # 6、lambda表达式
 
-## 使用lambda表达式解决创建线程对象的冗余操作
+## 6.1 使用lambda表达式解决创建线程对象的冗余操作
 
 ![image-20191201164053261](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/image-20191201164053261.png)
 
-## lambda表达式的标准格式
+## 6.2 lambda表达式的标准格式
 
 ![image-20191201164502950](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/image-20191201164502950.png)
 
-## lambda表达式的无参无返回值例子
+## 6.3 lambda表达式的无参无返回值例子
 
 ![image-20191201165027736](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/image-20191201165027736.png)
 
 ![image-20191201165106202](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/image-20191201165106202.png)
 
-## lambda表达式的有参有返回值例子
+## 6.4 lambda表达式的有参有返回值例子
 
 <u>**用匿名内部类：**</u>
 
@@ -838,7 +838,7 @@ public class Demo01WaitAndNotify {
 
 ![image-20191201165742462](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/image-20191201165742462.png)
 
-## lambda表达式省略格式
+## 6.5 lambda表达式省略格式
 
 ![image-20191201171259768](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/image-20191201171259768.png)
 
