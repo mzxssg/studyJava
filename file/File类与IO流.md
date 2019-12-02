@@ -53,3 +53,43 @@
 ![image-20191202215109573](https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191202215109573.png)
 
 **方法二：isDirectory（）方法和方法三：isFile（）方法**
+
+![image-20191202215627642](https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191202215627642.png)
+
+![image-20191202215715481](https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191202215715481.png)
+
+## 1.7File类创建删除功能的方法
+
+![image-20191202215846421](https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191202215846421.png)
+
+**方法一：creatNewFile():**
+
+![image-20191202220431150](https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191202220431150.png)
+
+
+
+**方法二：delete():**
+
+![image-20191202221701102](https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191202221701102.png)
+
+**方法三mkdir()和方法四mkdirs():**
+
+![image-20191202221025380](https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191202221025380.png)
+
+![image-20191202221350609](https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191202221350609.png)
+
+## 1.8 File类遍历（文件夹）目录功能
+
+![image-20191202221931076](https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191202221931076.png)
+
+**方法一：list()**:
+
+![image-20191202222232699](https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191202222232699.png)
+
+![image-20191202222523165](https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191202222523165.png)
+
+**方法二：listFiles():**
+
+![image-20191202222447505](https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191202222447505.png)
+
+![image-20191202222505194](https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191202222505194.png)
