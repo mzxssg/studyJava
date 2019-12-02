@@ -1,4 +1,4 @@
-# 1.异常
+# 一.异常
 
 ## 1.1 异常的产生过程
 
@@ -54,11 +54,11 @@ public class Demo02Exception{
 
 ![Screenshot_2019-11-30-10-21-58](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/Screenshot_2019-11-30-10-21-58.png)
 
-# 2、IDEA的复制粘贴快捷键失效解决方法
+# 二、IDEA的复制粘贴快捷键失效解决方法
 
 #### 打开IDEA--->点击Tools， 把Vim Emulator 前面的√去掉就好了，这样复制粘贴的快捷键就恢复正常了。 
 
-# 3、多线程
+# 三、多线程
 
 ## 3.1 并发与并行
 
@@ -730,7 +730,7 @@ public class Demo01Ticket {
 }
 ```
 
-# 4、等待唤醒机制
+# 四、等待唤醒机制
 
 ## 4.1 线程状态
 
@@ -796,7 +796,7 @@ public class Demo01WaitAndNotify {
 
 ![image-20191201152237858](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/image-20191201152237858.png)
 
-# 5.线程池
+# 五.线程池
 
 ## 5.1 线程池的概念和原理
 
@@ -812,7 +812,7 @@ public class Demo01WaitAndNotify {
 
 ![image-20191201162833308](https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/image-20191201162833308.png)
 
-# 6、lambda表达式
+# 六、lambda表达式
 
 ## 6.1 使用lambda表达式解决创建线程对象的冗余操作
 

@@ -1,3 +1,7 @@
 https://raw.githubusercontent.com/mzxssg/studyJava/master/picture/Screenshots/
 E:\githubFile\studyJava\picture\Screenshots\
 E:%5CgithubFile%5CstudyJava%5Cpicture%5CScreenshots%5C
+
+E:%5CgithubFile%5CstudyJava%5Cfile%5Cpicture%5CScreenshots%5C
+
+https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/
