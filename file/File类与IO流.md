@@ -93,3 +93,75 @@
 ![image-20191202222447505](https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191202222447505.png)
 
 ![image-20191202222505194](https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191202222505194.png)
+
+# 二、递归
+
+## 2.1 递归概念&分类&注意事项
+
+![image-20191203201018732](https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191203201018732.png)
+
+**没有限制条件为什么会溢出**
+
+![image-20191203201117298](https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191203201117298.png)
+
+**有限制条件，但是递归次数也不能太多，否则也会溢出**
+
+![image-20191203201307962](https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191203201307962.png)
+
+![image-20191203201351774](https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191203201351774.png)
+
+## 2.2 使用递归计算1~n之间的和
+
+![image-20191203202429148](https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191203202429148.png)
+
+## 2.3 递归打印多级目录
+
+![image-20191203203638174](https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191203203638174.png)
+
+![image-20191203203659682](https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191203203659682.png)
+
+## 2.4 文件搜索
+
+**只打印出以.java结尾的文件**
+
+![image-20191203204313826](https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191203204313826.png)
+
+**如果结尾.java是大写的.JAVA,那么可以先把大写转为小写先：**（加上
+
+```java
+s = s.toLowerCase()
+```
+
+**这句代码即可**
+
+）
+
+![image-20191203204532509](https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191203204532509.png)
+
+**简单写法：(链式写法)**
+
+![image-20191203204815802](https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191203204815802.png)
+
+# 三、过滤器
+
+## 3.1 FileFilter过滤器的原理和使用
+
+**还是对上一个方法来改进：**
+
+![image-20191203210603012](https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191203210603012.png)
+
+**使用FileFilter接口：**
+
+![image-20191203210706922](https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191203210706922.png)
+
+![image-20191203210758645](https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191203210758645.png)
+
+**原理：**
+
+![image-20191203210838459](https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191203210838459.png)
+
+**使用FileNameFilter接口：**
+
+![image-20191203211715517](https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191203211715517.png)
+
+![image-20191203211846797](https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191203211846797.png)
