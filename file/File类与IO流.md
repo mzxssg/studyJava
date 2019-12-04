@@ -165,3 +165,58 @@ s = s.toLowerCase()
 ![image-20191203211715517](https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191203211715517.png)
 
 ![image-20191203211846797](https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191203211846797.png)
+
+# 四、IO流
+
+## 4.1 IO概述
+
+![image-20191204214835884](https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191204214835884.png)
+
+## 4.2 字节输出流OutputStream
+
+![image-20191204220436967](https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191204220436967.png)
+
+## 4.3 字节输出流写入数据到文件
+
+![image-20191204221354543](https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191204221354543.png)
+
+## 4.4 文件存储的原理和记事本打开文件的样式
+
+![image-20191204222059710](https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191204222059710.png)
+
+## 4.5 字节输出流写多个字节的办法
+
+![image-20191204223355274](https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191204223355274.png)
+
+![image-20191204223501717](https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191204223501717.png)
+
+![image-20191204223542098](https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191204223542098.png)
+
+## 4.6 字节输出流的续写和换行
+
+![image-20191204224223617](https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191204224223617.png)
+
+![image-20191204224250675](https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191204224250675.png)
+
+## 4.7 字节输入流InputStream和FileInputStream
+
+![image-20191204225008976](https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191204225008976.png)
+
+## 4.8 字节输入流读取字节数据
+
+![image-20191204230338378](https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191204230338378.png)
+
+![image-20191204230402773](https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191204230402773.png)
+
+![image-20191204230458966](https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191204230458966.png)
+
+**注意：<u>不能写如下格式：</u>**
+
+![image-20191204230655549](https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191204230655549.png)
+
+![image-20191204230708869](https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191204230708869.png)
+
+**控制台打印错误!原因如下：**
+
+<u>fis.read()先读到了97，但没打印，system里面读到了98并打印了98，while里fis.read()再读到99，但是没有打印，system里面读到了-1并打印了-1，因为文件没数据了。因此得用个变量存起来</u>
+
