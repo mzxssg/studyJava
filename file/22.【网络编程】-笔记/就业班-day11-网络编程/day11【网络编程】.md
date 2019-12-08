@@ -116,7 +116,7 @@ ping 220.181.57.216
 
 ### 端口号
 
-![image-20191207165536110](E:%5CgithubFile%5CstudyJava%5Cfile%5C22.%E3%80%90%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B%E3%80%91-%E7%AC%94%E8%AE%B0%5C%E5%B0%B1%E4%B8%9A%E7%8F%AD-day11-%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B%5Cpicture%5CScreenshots%5Cimage-20191207165536110.png)
+![image-20191207165536110](picture/Screenshots/image-20191207165536110.png)
 
 网络的通信，本质上是两个进程（应用程序）的通信。每台计算机都有很多的进程，那么在网络通信时，如何区分这些进程呢？
 
@@ -143,7 +143,7 @@ TCP通信能实现两台计算机之间的数据交互，通信的两端，要�
 
 2. 服务端：`java.net.ServerSocket` 类表示。创建`ServerSocket`对象，相当于开启一个服务，并等待客户端的连接。
 
-   ![image-20191207180811443](E:%5CgithubFile%5CstudyJava%5Cfile%5C22.%E3%80%90%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B%E3%80%91-%E7%AC%94%E8%AE%B0%5C%E5%B0%B1%E4%B8%9A%E7%8F%AD-day11-%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B%5Cpicture%5CScreenshots%5Cimage-20191207180811443.png)
+   ![image-20191207180811443](picture/Screenshots/image-20191207180811443.png)
 
 ## 2.2 Socket类  
 
@@ -337,7 +337,7 @@ public class ClientTCP {
 
 ![](img/6_upload.jpg)
 
-![image-20191207201640069](E:%5CgithubFile%5CstudyJava%5Cfile%5C22.%E3%80%90%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B%E3%80%91-%E7%AC%94%E8%AE%B0%5C%E5%B0%B1%E4%B8%9A%E7%8F%AD-day11-%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B%5Cpicture%5CScreenshots%5Cimage-20191207201640069.png)    
+![image-20191207223819676](picture/Screenshots/image-20191207223819676.png)
 
 #### 基本实现
 
@@ -586,7 +586,7 @@ public class FileUpload_Client {
 
 ### 案例分析
 
-![image-20191207223819676](E:%5CgithubFile%5CstudyJava%5Cfile%5C22.%E3%80%90%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B%E3%80%91-%E7%AC%94%E8%AE%B0%5C%E5%B0%B1%E4%B8%9A%E7%8F%AD-day11-%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B%5Cpicture%5CScreenshots%5Cimage-20191207223819676.png)
+![image-20191207223819676](picture/Screenshots/image-20191207223819676.png)
 
 1. 准备页面数据，web文件夹。
 
