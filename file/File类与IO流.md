@@ -220,3 +220,79 @@ s = s.toLowerCase()
 
 <u>fis.read()先读到了97，但没打印，system里面读到了98并打印了98，while里fis.read()再读到99，但是没有打印，system里面读到了-1并打印了-1，因为文件没数据了。因此得用个变量存起来</u>
 
+## 4.9 字节输入流一次读取多个字节
+
+![image-20191206085848501]( https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191206085848501.png)
+
+![image-20191206085811353]( https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191206085811353.png)
+
+![image-20191206085901803]( https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191206085901803.png)
+
+![image-20191206090034263]( https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191206090034263.png)
+
+## 4.10 练习__文件复制
+
+![image-20191206092027618]( https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191206092027618.png)
+
+![image-20191206093130620]( https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191206093130620.png)
+
+```JAVA
+package IOAndProperties;
+
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+public class Demo03CopyFile {
+    public static void main(String[] args) throws IOException {
+        //1、创建一个字节输入流对象，构造方法中绑定要读取的数据源
+        FileInputStream fls = new FileInputStream("D:\\个人简历.docx");
+        //2.创建一个字节输入出流对象，构造方法中绑定要写入的目的地
+        FileOutputStream fos = new FileOutputStream("E:\\个人简历.docx");
+        //一次读取一个字节写入一个字节的方式
+        //3.使用字节输入流对象中的方法read读取文件
+        /*int len = 0;
+        while((len = fls.read())!=-1){
+            //4.使用字节输出流中的方法write，把读取到的字节写入到目的地的文件中
+            fos.write(len);
+        }*/
+        //使用数组缓冲读取多个字节，写入多个字节
+        int len = 0;
+        byte[] bytes = new byte[1024];
+        while((len = fls.read(bytes))!=-1){
+            //4.使用字节输出流中的方法write，把读取到的字节写入到目的地的文件中
+            fos.write(bytes,0,len);
+        }
+        //5.释放资源（先关写的，后关闭读的，如果写完了，肯定读取完毕了
+        fos.close();
+        fls.close();
+    }
+}
+
+```
+
+# 5、字符输入流
+
+## 5.1 字符输入流Reader类和FileReader类
+
+![image-20191206102204106]( https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191206102204106.png)
+
+## 5.2 字符输入流读取字符数据
+
+![image-20191206102805095]( https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191206102805095.png)
+
+## 5.3 字符输出流Writer类和FileWriter类
+
+![image-20191206105241558]( https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191206105241558.png)
+
+## 5.4 字符输出流的基本使用
+
+![image-20191206105929739]( https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191206105929739.png)
+
+**注意字符输出流是先把数据存到缓冲去的，如果没调用flush方法，不会写入到文件中去，或者调用close方法也会先把数据从缓冲区放到文件中去，再关闭流。**
+
+## 5.5 flush方法和close方法的区别
+
+![image-20191206110354123]( https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191206110354123.png)
+
+![image-20191206110414174]( https://raw.githubusercontent.com/mzxssg/studyJava/master/file/picture/Screenshots/image-20191206110414174.png)
